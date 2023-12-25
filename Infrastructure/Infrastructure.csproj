@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <PackageReference Include="StackExchange.Redis" Version="2.7.10" />
     <ProjectReference Include="..\Core\Core.csproj" />
      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.9" />
   </ItemGroup>
