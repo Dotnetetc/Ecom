@@ -13,6 +13,7 @@ export class ProductItemComponent {
 constructor(private basketService: BasketService){}
 
 addItemToBasket(){
+  console.log("Product Details "+JSON.stringify(this.product));
   this.product && this.basketService.addItemToBasket(this.product);
 }
 }
